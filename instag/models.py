@@ -1,6 +1,6 @@
-
 from django.db import models
 from django.contrib.auth.models import User
+from tinymce.models import HTMLField
 
 # Create your models here.
 
@@ -32,7 +32,7 @@ class Profile(models.Model):
 
 class Image(models.Model):
     user = models.ForeignKey(User,on_delete=models.CASCADE)
-    image = models.ImageField(upload_to = 'gramys/')
+    image = models.ImageField(upload_to = 'gram/')
     name = models.CharField(max_length =60)
     caption = models.CharField(max_length =200)
     likes= models.IntegerField(default=0)

@@ -1,6 +1,8 @@
 from django.shortcuts import render
-from django.http  import HttpResponse,HttpResponse
+from django.http  import HttpResponse,HttpResponseRedirect
 from .forms import ProfileForm
+from django.contrib.auth.decorators import login_required
+
 
 def home(request):
     return render(request,'index.html')
@@ -19,3 +21,6 @@ def profile(request):
     else:
         form = ProfileForm()
     return render(request, 'profile.html', {"form": form})
+
+
+  
