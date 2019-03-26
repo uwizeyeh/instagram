@@ -22,7 +22,8 @@ virtualenv -p /usr/bin/python3.6 venv && source venv/bin/activate
 ## Install dependancies
 Install dependancies that will create an environment for the app to run pip3 install -r requirements.txt
 
-
+## .env file
+Create .env file and paste paste the following filling where appropriate:
 
 
 
@@ -62,11 +63,8 @@ Install dependancies that will create an environment for the app to run pip3 ins
 
 
 
-Create the Database
-psql
-CREATE DATABASE insta;
-.env file
-Create .env file and paste paste the following filling where appropriate:
+
+
 
 SECRET_KEY = '<Secret_key>'
 DBNAME = 'insta'
