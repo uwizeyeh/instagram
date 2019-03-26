@@ -8,7 +8,7 @@ class Profile(models.Model):
     user = models.ForeignKey(User,on_delete=models.CASCADE)
     first_name = models.CharField(max_length=30)
     last_name = models.CharField(max_length=30)
-    prof_image = models.ImageField(upload_to = 'gramys/')
+    prof_image = models.ImageField(upload_to = 'gram/')
     bio = models.CharField(max_length =200)
 
     def __str__(self):
@@ -36,7 +36,7 @@ class Image(models.Model):
     name = models.CharField(max_length =60)
     caption = models.CharField(max_length =200)
     likes= models.IntegerField(default=0)
-    profile = models.ForeignKey(Profile)
+    profile = models.ForeignKey(Profile,null = True)
    
     def __str__(self):
         return self.name
