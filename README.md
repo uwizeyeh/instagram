@@ -41,6 +41,9 @@ EMAIL_HOST_PASSWORD = '<your-password>'
 python3.6 manage.py makemigrations gram
 python3.6 manage.py migrate
 
+## Run the app
+python3.6 manage.py runserver
+Open terminal on localhost:8000
 
 
 
@@ -82,9 +85,7 @@ python3.6 manage.py migrate
 
 
 
-Run the app
-python3.6 manage.py runserver
-Open terminal on localhost:8000
+
 
 Known bugs
 Like and Follow functionality do not work
