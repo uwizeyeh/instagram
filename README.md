@@ -57,6 +57,8 @@ Open terminal on localhost:8000
 - Contact me on uwizeyimanahulde1@gmail.com
 - Tel:0782356570
 
+## License
+Copyright (c) 2019
 
 
 
@@ -85,7 +87,6 @@ Open terminal on localhost:8000
 
 
 
-<!--
 
 
 
@@ -104,5 +105,5 @@ Open terminal on localhost:8000
 
 
 
-License
-Copyright (c) -->
+
+
