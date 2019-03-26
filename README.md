@@ -11,6 +11,8 @@ Python3.6
 Postgres
 python virtualenv
 
+## Clone the Repo
+Run the following command on the terminal: git clone https://github.com/DevWaweru/Instagram.git && cd Instagram
 
 
 
@@ -48,8 +50,6 @@ python virtualenv
 
 
 
-Clone the Repo
-Run the following command on the terminal: git clone https://github.com/DevWaweru/Instagram.git && cd Instagram
 
 Activate virtual environment
 Activate virtual environment using python3.6 as default handler
