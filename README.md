@@ -53,6 +53,10 @@ Open terminal on localhost:8000
 - Heroku
 - Postgresql
 
+## Support and contact details
+- Contact me on uwizeyimanahulde1@gmail.com
+- Tel:0782356570
+
 
 
 
@@ -98,8 +102,7 @@ Open terminal on localhost:8000
 
 
 
-Support and contact details
-Contact me on developer.waweru@gmail.com for any comments, reviews or advice.
+
 
 License
 Copyright (c) -->
