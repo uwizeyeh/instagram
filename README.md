@@ -1,5 +1,6 @@
-# Project Name
+## Project Name
     Instagram
+
 ## Description
 This is a simple web clone of the instagram website. A user can create an account and sign into it. The site supports uploading images, and following other users. users can view photos uploaded by other users in the home page of app.
 
@@ -14,7 +15,7 @@ Postgres
 python virtualenv
 
 ## Clone the Repo
-Run the following command on the terminal: git clone            && cd Instagram
+Run the following command on the terminal: git clone https://github.com/uwizeyeh/instagram && cd Instagram
 
 ## Activate virtual environment
 Activate virtual environment using python3.6 as default handler
