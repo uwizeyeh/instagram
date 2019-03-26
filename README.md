@@ -45,6 +45,14 @@ python3.6 manage.py migrate
 python3.6 manage.py runserver
 Open terminal on localhost:8000
 
+## Technologies used
+- Python 3.6
+- HTML
+- Bootstrap 4
+- JavaScript
+- Heroku
+- Postgresql
+
 
 
 
@@ -87,16 +95,9 @@ Open terminal on localhost:8000
 
 
 
-Known bugs
-Like and Follow functionality do not work
 
-Technologies used
-- Python 3.6
-- HTML
-- Bootstrap 4
-- JavaScript
-- Heroku
-- Postgresql
+
+
 Support and contact details
 Contact me on developer.waweru@gmail.com for any comments, reviews or advice.
 
