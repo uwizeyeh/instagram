@@ -4,6 +4,14 @@
 This is a simple web clone of the instagram website. A user can create an account and sign into it. The site supports uploading images, and following other users. users can view photos uploaded by other users in the home page of app.
 
 
+## Set Up and Installations
+#### Prerequisites
+Ubuntu Software
+Python3.6
+Postgres
+python virtualenv
+
+
 
 
 
@@ -38,15 +46,8 @@ This is a simple web clone of the instagram website. A user can create an accoun
 <!--
 
 
-Specifications
-Find the specs here
 
-Set Up and Installations
-Prerequisites
-Ubuntu Software
-Python3.6
-Postgres
-python virtualenv
+
 Clone the Repo
 Run the following command on the terminal: git clone https://github.com/DevWaweru/Instagram.git && cd Instagram
 
