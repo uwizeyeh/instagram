@@ -14,7 +14,7 @@ def home(request):
 @login_required(login_url='/accounts/login/')
 def images(request,image_id):
     image = Image.objects.get(id = image_id)
-    return render(request,"info.html", {"image":image})
+    return render(request,"infos.html", {"image":image})
 
 @login_required(login_url='/accounts/login/')
 def myProfile(request,id):
@@ -49,7 +49,7 @@ def image(request):
 
     else:
         form = ImageForm()
-    return render(request, 'image.html', {"form": form})
+    return render(request, 'images.html', {"form": form})
 
 def comments(request):
     current_user = request.user
@@ -80,7 +80,7 @@ def like(request):
 
     else:
         form = LikesForm()
-    return render(request, 'like.html', {"form": form})
+    return render(request, 'likes.html', {"form": form})
 
 
   

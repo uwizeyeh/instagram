@@ -4,7 +4,7 @@
 {% block content %}
 
 <div class="container">
-
+<div class="well">
    <div class="row">
        <img src="{{image.image.url}}"  class="img-responsive" alt="">
    </div>
@@ -18,7 +18,7 @@
       <h1>{{image.user}}</h1>
 
       <button><a href="{%url 'comments'%}">Comment</a></button>
-  
+    </div>  
 </div>
       
 {% endblock %}

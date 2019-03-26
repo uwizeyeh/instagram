@@ -1,0 +1,14 @@
+body{
+    background-image:url("https://www.pixelstalk.net/wp-content/uploads/2016/07/3D-Nice-Wallpapers.jpg");
+}
+h1
+{
+  color: rgb(0, 45, 128);
+}
+.container{
+    font-size: 15px; 
+    text-align: center;
+}
+a{
+    text-align: center;  
+}
