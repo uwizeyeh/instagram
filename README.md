@@ -4,7 +4,7 @@
 This is a simple web clone of the instagram website. A user can create an account and sign into it. The site supports uploading images, and following other users. users can view photos uploaded by other users in the home page of app.
 
 ## BDD
-
+- A user can create an account and sign into it. The site supports uploading images, and following other users. users can view photos uploaded by other users in the home page of app.
 
 ## Set Up and Installations
 #### Prerequisites
@@ -27,17 +27,17 @@ Install dependancies that will create an environment for the app to run pip3 ins
 ## .env file
 Create .env file and paste paste the following filling where appropriate:
 
-SECRET_KEY = '<Secret_key>'
-DBNAME = 'insta'
-USER = '<Username>'
-PASSWORD = '<password>'
-DEBUG = True
+- SECRET_KEY = '<Secret_key>'
+- DBNAME = 'insta'
+- USER = '<Username>'
+- PASSWORD = '<password>'
+- DEBUG = True
 
-EMAIL_USE_TLS = True
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_PORT = 587
-EMAIL_HOST_USER = '<your-email>'
-EMAIL_HOST_PASSWORD = '<your-password>'
+- EMAIL_USE_TLS = True
+- EMAIL_HOST = 'smtp.gmail.com'
+- EMAIL_PORT = 587
+- EMAIL_HOST_USER = '<your-email>'
+- EMAIL_HOST_PASSWORD = '<your-password>'
 
 ## Run initial Migration
 python3.6 manage.py makemigrations gram
