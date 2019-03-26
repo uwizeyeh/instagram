@@ -1,7 +1,29 @@
+
 {%extends 'base.html'%}
 
 {% block content %}
 {{block.super}}
 
+<body>
+    <div class = "container">
 
+      <div>
+
+      <h1 class="well" >INSTAGRAM</h1>
+
+      <button class="well"><a href="{%url 'image'%}">Add Image</a></button>
+
+   </div>
+
+            {% for profs in images %}
+            
+               <a href="/images/{{profs.id}}"><img src="{{profs.image.url}}" alt="Image"></a>
+               
+            
+         
+            {% endfor %}
+     </div>
+</body>
+
+</html>
 {% endblock %}
