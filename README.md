@@ -3,6 +3,8 @@
 ## Description
 This is a simple web clone of the instagram website. A user can create an account and sign into it. The site supports uploading images, and following other users. users can view photos uploaded by other users in the home page of app.
 
+## BDD
+
 
 ## Set Up and Installations
 #### Prerequisites
