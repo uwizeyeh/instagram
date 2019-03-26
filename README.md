@@ -25,6 +25,21 @@ Install dependancies that will create an environment for the app to run pip3 ins
 ## .env file
 Create .env file and paste paste the following filling where appropriate:
 
+SECRET_KEY = '<Secret_key>'
+DBNAME = 'insta'
+USER = '<Username>'
+PASSWORD = '<password>'
+DEBUG = True
+
+EMAIL_USE_TLS = True
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_HOST_USER = '<your-email>'
+EMAIL_HOST_PASSWORD = '<your-password>'
+
+## Run initial Migration
+python3.6 manage.py makemigrations gram
+python3.6 manage.py migrate
 
 
 
@@ -66,20 +81,7 @@ Create .env file and paste paste the following filling where appropriate:
 
 
 
-SECRET_KEY = '<Secret_key>'
-DBNAME = 'insta'
-USER = '<Username>'
-PASSWORD = '<password>'
-DEBUG = True
 
-EMAIL_USE_TLS = True
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_PORT = 587
-EMAIL_HOST_USER = '<your-email>'
-EMAIL_HOST_PASSWORD = '<your-password>'
-Run initial Migration
-python3.6 manage.py makemigrations gram
-python3.6 manage.py migrate
 Run the app
 python3.6 manage.py runserver
 Open terminal on localhost:8000
