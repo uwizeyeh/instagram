@@ -11,10 +11,10 @@ class ImageForm(forms.ModelForm):
         model = Image
         exclude = ['user','profile']
 
-class CommentsForm(forms.ModelForm):
-    class Meta:
-        model = Comments
-        exclude = ['user']
+class CommentsForm(forms.Form):
+
+     comment =forms.CharField(label='Comment',max_length = 300)
+    
 
 class LikesForm(forms.ModelForm):
     class Meta:

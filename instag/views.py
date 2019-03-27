@@ -51,20 +51,24 @@ def image(request):
         form = ImageForm()
     return render(request, 'images.html', {"form": form})
 
-def comments(request):
+def comments(request,id):
     current_user = request.user
+    post = Image.objects.get(id=id)
+    comments = Comments.objects.filter(image=post)
     if request.method == 'POST':
         form = CommentsForm(request.POST, request.FILES)
         if form.is_valid():
-            comments = form.save(commit=False)
-            comments.user = current_user
-            comments.save()
+            comment = form.cleaned_data['comment']
+            new_comment = Comments(comment = comment,user =current_user,image=post)
+            # comments = form.save(commit=False)
+            # comments.user = current_user
+            new_comment.save()
 
-            return redirect(home)
+            # return redirect(home)
 
     else:
-        form = CommentsForm()
-    return render(request, 'comment.html', {"form": form})
+                 form = CommentsForm()
+    return render(request, 'comment.html', {"form": form,'post':post,'user':current_user,'comments':comments})
 
 
 def like(request):

@@ -13,11 +13,9 @@
             {% for profs in images %}
             
                <a href="/images/{{profs.id}}"><img src="{{profs.image.url}}" alt="Image"></a>
-               <p>Name:{{image.image_name}}</p>
-               <p>Caption:{{image.image_caption}}</p>
-               <p>Like:{{image.like}}</p>
-            
-         
+               <p>Name:{{profs.name}}</p>
+               <p>Caption:{{profs.caption}}</p>
+               <p>Like:{{profs.like}}</p>
             {% endfor %}
          </div>
      </div>
