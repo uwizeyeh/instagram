@@ -6,7 +6,9 @@
 
 <body>
     <div class = "container">
+         <div class="jumbotron">
          <h1  >INSTAGRAM</h1>
+         </div>
          <button class="well"><a href="{%url 'image'%}">ADD IMAGE</a></button>
 <div class="well">
       
@@ -15,7 +17,7 @@
                <a href="/images/{{profs.id}}"><img src="{{profs.image.url}}" alt="Image"></a>
                <p>Name:{{profs.name}}</p>
                <p>Caption:{{profs.caption}}</p>
-               <p>Like:{{profs.like}}</p>
+     
             {% endfor %}
          </div>
      </div>

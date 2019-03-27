@@ -64,7 +64,7 @@ def comments(request,id):
             # comments.user = current_user
             new_comment.save()
 
-            # return redirect(home)
+          
 
     else:
                  form = CommentsForm()

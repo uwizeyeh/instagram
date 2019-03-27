@@ -15,18 +15,35 @@
       </head>
       
 <body>
-    <div class = "container">
+  
+    <div class="container">
+        <div class="jumbotron">
+            <h1>INSTAGRAM</h1>
+          </div>
+    <div class="well">
+          <img src="{{post.image.url}}" alt="Image"></a>
+           <p>Name:{{post.name}}</p>
+           <p>Caption:{{post.caption}}</p>
+      
+    <div class="container" id="come">
+        <p>comments: 
+    {%for mais in comments%}
+        {{mais.comment}}    @{{mais.user.username}}</p>
 
+                  {%endfor%}
+    </div>     
         <form  action="{%url 'comments' post.id%}" method="post" enctype="multipart/form-data">
             {%csrf_token%}
 
     {% bootstrap_form form%}
     <input type="submit" class="btn btn-success btn-lg" value="Post">
-  </form>
+  </form> 
 
   {% block scripts %}
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   {% bootstrap_javascript %} {% endblock %}
+</div> 
+</div>
 </div>
 </body>
 
