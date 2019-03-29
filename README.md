@@ -5,7 +5,7 @@
 This is a simple web clone of the instagram website. A user can create an account and sign into it. The site supports uploading images, and following other users. users can view photos uploaded by other users in the home page of app.
 
 ## BDD
-- A user can create an account and sign into it. The site supports uploading images, and following other users. users can view photos uploaded by other users in the home page of app.
+- A user can create an account and sign into it. The site supports uploading images, users can view photos uploaded by other users in the home page of app,and user can comment on image.
 
 ## Set Up and Installations
 #### Prerequisites
@@ -55,6 +55,8 @@ Open terminal on localhost:8000
 - JavaScript
 - Heroku
 - Postgresql
+## Link
+* But is not work:instagra222.herokuapp.com
 
 ## Support and contact details
 - Contact me on uwizeyimanahulde1@gmail.com
